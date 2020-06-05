@@ -1,0 +1,266 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/********-our services-************/
+
+body
+{
+    background: #fff;
+    font-family: 'Ubuntu',sans-serif;
+}
+.services
+{
+    display: block;
+    position: relative;
+    padding: 0;
+}
+.container
+{
+    max-width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.services-title
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+
+.services-box
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-top: -15px;
+}
+
+.titles
+{
+    margin-left: 15px;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom:10px;
+    text-align: center;
+    top: 26px;
+
+}
+.services-title h2 span,
+.cs h2 span
+{
+    color: red;
+}
+.services-title h2,
+.cs h2
+{
+    margin-top: -10px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #333;
+    font-family:'Ubuntu',sans-serif;
+        text-align: center;
+        padding-bottom: 10px;
+        }
+.services-title h2::after,
+.cs h2::after  {
+          content: '';
+          background: red ;
+          display: block;
+          width: 170px;
+        height: 3px;
+        margin: 10px auto 5px;
+        }
+
+
+.box
+{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 33.333333%;
+}
+.ser-box
+{
+    margin-top: 75px;
+    padding-bottom: 30px;
+    padding: 0 60px;
+    min-height: 198px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: all .4s ease-in-out;
+    box-shadow: 0 0 25px 0 rgba(252, 6, 6, 0.17);
+}
+
+.ser-box .icon
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.ser-box h4
+{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1;
+    color: black;
+    margin-top: -10px;
+    font-family: 'Ubuntu',sans-serif;
+}
+.ser-box a
+{
+    color: #61648e;
+    font-size: 12px;
+    line-height: 24px;
+    margin-top: 20px;
+    font-family:'Ubuntu',sans-serif;
+}
+.ser-box:hover
+{
+    box-shadow: 0 0 25px 0 rgba(20,27,201,.05);
+    cursor: pointer;
+    background-image: 
+    linear-gradient(-45deg, #FD1A03 0%, #FB240E 100%);
+}
+
+.ser-box:hover h4,
+.ser-box:hover p
+{
+color: white !important;
+}
+
+/********-Responsive-************/
+
+@media(min-width: 768px)
+{
+    .box
+    {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+@media(min-width: 600px)
+{
+    .box
+    {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+@media(min-width: 992px)
+{
+    .box
+    {
+        flex: 0 0 33.333333% !important;
+        max-width: 33.333333% !important;
+    }
+}
+@media(min-width: 414px)
+{
+    .box
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(min-width: 370px)
+{
+    .box
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(min-width: 320px)
+{
+    .box
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+.btnserv {
+    position: relative;
+    padding: 15px 30px;
+    color: black !important;
+    letter-spacing: 2px;
+    left:0;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: 0.5s;
+    
+    }
+    .btnserv:hover {
+        position: relative;
+        padding: 15px 30px;
+        color: white !important;
+        letter-spacing: 2px;
+        left:0;
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        transition: 0.5s;
+        
+        }
+    .ser-box:hover .btnserv {
+    
+        color: white !important;
+      
+        
+        }
+    .btnserv:hover {
+        text-decoration: none;
+    color: black !important;}
+    
+    .btnserv::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+    }
+    
+    .btnserv svg,
+    .btnserv svg rect 
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      fill: transparent;
+    
+    }
+    .btnserv svg rect {
+      stroke-width: 2;
+      stroke: black;
+      stroke-dasharray: 100;
+    animation: animate 2s linear infinite;
+    }
+
+  .ser-box:hover   .btnserv svg rect {
+    stroke: white;
+  }
+  .wb {
+      width: 150px;
+      height: 80px;
+  }
+   

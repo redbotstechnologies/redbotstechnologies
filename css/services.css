@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.web h2
+{
+    margin-top: 30px;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 48px;
+    font-weight: bold;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+        padding-bottom: 10px;
+        }
+        .webp{
+            font-family: 'Raleway', sans-serif;
+            color: #222;
+            }
+
+    /* Services */
+    .web {
+        background-image: url(..///images/brown-wooden-floor-172292.jpg )   ;
+        position: relative;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .webbg {
+            position: absolute;
+            background: black;
+            opacity: 0.8;
+            left: 0;
+            top: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .webh h2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            text-transform: uppercase ;
+            }
+    
+ .cms-img {
+     width: 90%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .cimg {
+     padding-top: 10px;
+     width: 220px;
+     height: 120px;
+     display: flex;
+     align-items: center;
+     align-self: center;
+
+    }
+    .card-title {
+        font-family: 'Ubuntu',sans-serif;
+
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .card {
+        height: 200px;
+        border-radius: 20px 0 20px  0;
+    }
+    .card:hover {
+        box-shadow: 0 0 15px 5px rgb(0,0,0,0.2);
+        cursor: pointer;
+        transition: 0.5s;
+      }
+    .video2 {
+        width: 100%;
+        height: 150px;
+      }
+.qp {
+    font-family: 'Josefin Sans', sans-serif;     
+word-spacing: 2px;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qi {
+    width: 200px;
+}
+.graphicsimg {
+    margin-top: 20px;
+    width: 200px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
